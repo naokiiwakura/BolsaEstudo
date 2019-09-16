@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Domain.Model
 {
-    class Rate
+    public class Portifolio
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
